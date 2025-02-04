@@ -1,0 +1,27 @@
+package com.seleniumPrograms;
+
+public class Example_001 {
+	
+	//(JVM ==> java Virtual Machine  // heart of my java compiler)
+
+	public static void main(String[] args) {
+		//object => instance of class
+// without creating an object i can call method
+		//classname reference variable = new className;
+		calculateArea();
+	}
+	
+	void calculateArea() {
+		
+		
+		
+	}
+	
+	
+	void launchbrowser() {
+		
+		
+	}
+	
+
+}

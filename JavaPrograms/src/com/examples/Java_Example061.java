@@ -1,0 +1,39 @@
+package com.examples;
+
+import java.util.Scanner;
+
+public class Java_Example061 {
+
+	public static void main(String[] args) {
+//		The logic of the code is to generate a multiplication table up to the user-defined number, with proper formatting to ensure that all numbers align in columns by padding smaller numbers with leading zeros.
+//		Purpose: The program prompts the user to enter a number (num).
+//		Scanner: Scanner s = new Scanner(System.in); is used to read user input from the console.
+//		Input Reading: int num = s.nextInt(); reads the integer input and stores it in num.
+//		Resource Closing: s.close(); closes the Scanner resource to avoid memory leaks.
+//		Outer Loop (j): Iterates from 1 to 10. Each iteration represents a row in the multiplication table.
+//		Inner Loop (i): Iterates from 1 to the user-input number (num). Each iteration calculates the multiplication for that row and column.
+		
+		System.out.println("Please enter your number:");
+		Scanner s = new Scanner(System.in);
+		int num = s.nextInt();
+		s.close();
+		for (int j = 1; j <= 10; j++) {
+			for (int i = 1; i <= num; i++) {
+				String str = Integer.toString(i * j);// Convert number int to String
+
+				if (i * j < 10) {
+					System.out.print("00" + str + " ");
+				} else if (i * j < 100) {
+					System.out.print("0" + str + " ");
+				} else {
+					System.out.print(str + " ");
+				}
+
+			}
+			System.out.println("");
+
+		}
+
+	}
+
+}

@@ -1,0 +1,19 @@
+package com.examples;
+
+public class Example_001_VariablesDeclaration
+
+{
+	static int z = 40;
+	int InstanceVar;// Instance variable
+
+	public static void main(String[] args) {
+		Example_001_VariablesDeclaration obj = new Example_001_VariablesDeclaration();
+		obj.InstanceVar = 5;
+
+		int number = 10;// local variable
+// Difference between local variable 
+	}
+
+	int number = 3;
+
+}

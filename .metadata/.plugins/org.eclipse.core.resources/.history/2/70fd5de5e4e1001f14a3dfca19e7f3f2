@@ -1,0 +1,10 @@
+package com.seleniumPrograms;
+
+public class Example_002 {
+	
+	//(JVM ==> java Virtual Machine  // heart of my java compiler)
+
+	public static void main(String[] args) {
+	
+}
+}

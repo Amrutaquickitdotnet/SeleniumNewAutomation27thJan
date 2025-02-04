@@ -1,0 +1,28 @@
+package com.seleniumPrograms;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Example_002 {
+	
+	//(JVM ==> java Virtual Machine  // heart of my java compiler)
+
+	public static void main(String[] args) {
+		launchBrowser();
+		printPageURL();
+		
+}
+	
+	
+	static WebDriver driver;
+	public static void launchBrowser() {
+		
+	    driver = new ChromeDriver();
+		driver.get("https://www.practo.com/");
+	}
+	
+	public static void printPageURL() {
+		
+		System.out.println("The title of the URL:"+" "+ driver.getTitle());
+	}
+}

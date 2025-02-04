@@ -1,0 +1,49 @@
+package com.seleniumPrograms;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Example_002 {
+	
+	//(JVM ==> java Virtual Machine  // heart of my java compiler)
+
+	public static void main(String[] args) {
+		launchBrowser();
+		//printPageURL();
+		loginApp();
+		
+}
+	
+	
+	static WebDriver driver;
+	public static void launchBrowser() {
+		
+	    driver = new ChromeDriver();
+		driver.get("https://www.google.in/");
+	}
+	
+	public static void printPageURL() {
+		
+		System.out.println("The title of the URL:"+" "+ driver.getTitle());
+		
+		System.out.println("The Url of the application is "+driver.getCurrentUrl());
+		
+		System.out.println("Print page Source for Practo"+ driver.getPageSource());
+	}
+	
+	public static void loginApp() {
+		// linkText and partial linkText
+		
+		// Read More...  
+		
+		driver.findElement(By.linkText("Gmail")).click();
+		
+//		WebElement loginLink =driver.findElement(By.partialLinkText("Sign In"));
+//		
+//		loginLink.click();
+		
+		
+	}
+}

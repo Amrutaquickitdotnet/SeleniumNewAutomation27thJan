@@ -1,0 +1,12 @@
+package com.examples;
+
+public class Example_002_JavaUserInput
+
+{
+
+	public static void main(String[] args) 
+	{
+		
+	}
+	}
+}
