@@ -45,7 +45,7 @@ local.properties
 
 # Code Recommenders
 .recommenders/
-
+.metadata/
 # Annotation Processing
 .apt_generated/
 .apt_generated_test/
