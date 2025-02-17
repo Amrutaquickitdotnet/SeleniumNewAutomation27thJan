@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\SeleniumQABatchJan\SeleniumPrograms\src\test\java\com\seleniumPrograms\CheckingValidationForPracto.java"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -43,11 +44,13 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="BDDCucumberExample001"/>
 			<item value="SeleniumPrograms"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="BDDCucumberExample001"/>
 			<item value="SeleniumPrograms"/>
 		</list>
 		<list key="projectNameTemplate">
