@@ -1,0 +1,11 @@
+url= https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+
+usernameXpath = //input[@name='username']
+
+passwordxpath = //input[@name='password']
+
+UserNameTestData = Admin
+
+PasswordTestData = admin123
+
+loginButtonXpath = //button[@type='submit']
