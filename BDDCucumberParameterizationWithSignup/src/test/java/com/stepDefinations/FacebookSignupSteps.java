@@ -59,13 +59,13 @@ public class FacebookSignupSteps {
     @Then("I should be redirected to the welcome page")
     public void i_should_be_redirected_to_the_welcome_page() {
         Assert.assertTrue(driver.getCurrentUrl().contains("welcome"));
-        driver.quit();
+       // driver.quit();
     }
 
     @Then("I should see the error message {string}")
     public void i_should_see_the_error_message(String errorMessage) {
         WebElement errorElement = driver.findElement(By.xpath("//div[contains(text(), '" + errorMessage + "')]"));
         Assert.assertTrue(errorElement.isDisplayed());
-        driver.quit();
+       // driver.quit();
     }
 }
