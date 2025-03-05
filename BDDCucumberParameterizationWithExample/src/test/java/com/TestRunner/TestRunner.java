@@ -9,29 +9,20 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		
-		
-		//features = "C:\\SeleniumQABatchJan\\BDDCucumberParameterizationWithExample\\src\\test\\java\\Features\\login.feature",
-		
-			//	features = "C:\\SeleniumQABatchJan\\BDDCucumberParameterizationWithExample\\src\\test\\java\\Features\\Signup.feature",
-				
-				
-				
-		glue = {"com.stepDefinations"},
-		
-		plugin = {"pretty",
-				"html:target/cucumber-reports",
-				"json:Reports/cucumber-reports.json",
-				"junit:target/Cucumber.xml"}
-		
-		
-		
-		)
-public class TestRunner 
+
+		// features =
+		// "C:\\SeleniumQABatchJan\\BDDCucumberParameterizationWithExample\\src\\test\\java\\Features\\login.feature",
+
+		features = "C:\\SeleniumQABatchJan\\BDDCucumberParameterizationWithExample\\src\\test\\java\\Features\\Signup.feature",
+
+		glue = { "C:\\SeleniumQABatchJan\\BDDCucumberParameterizationWithExample\\src\\test\\java\\com\\stepDefinations\\SignupDefination.java" },
+
+		plugin = { "pretty", "html:target/cucumber-reports", "json:Reports/cucumber-reports.json",
+				"junit:target/Cucumber.xml" }
+
+)
+public class TestRunner
 
 {
-	
-	
-	
 
 }
