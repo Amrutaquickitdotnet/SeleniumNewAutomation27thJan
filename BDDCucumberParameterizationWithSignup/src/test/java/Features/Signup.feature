@@ -1,8 +1,4 @@
-Feature: Facebook Signup Page
-
-  As a new user
-  I want to sign up for Facebook
-  So that I can create an account and connect with friends.
+Feature: Facebook Signup Page As a new user I want to sign up for Facebook So that I can create an account and connect with friends.
 
   Background:
     Given I am on the Facebook signup page

@@ -6,8 +6,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 
-
-
 public class CheckingValidationForPracto {
 
 	static WebDriver driver;
